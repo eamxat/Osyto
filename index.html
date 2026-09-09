@@ -615,7 +615,7 @@
 
         async function verificarEstadoOnline() {
             try {
-                const response = await fetch('https://illuxat.com/api/online/osyto');
+                const response = await fetch('https://illuxat.com/api/online/simpLementeosyto');
                 const text = await response.text();
                 const dot = document.getElementById('status-dot');
                 const label = document.getElementById('status-text');
